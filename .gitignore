@@ -1,0 +1,6 @@
+.vscode 
+db.sqlite3
+/static/
+**/node_modules/
+**/.DS_Store
+*.pyc

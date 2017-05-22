@@ -1,0 +1,37 @@
+{
+  "globals": {
+    "storedProps": true,
+    "Urls": true,
+    "store": true,
+    "test": true,
+    "describe": true,
+    "expect": true,
+    "it": true
+  },
+  "env": {
+    "es6": true,
+    "node": true,
+    "browser": true
+  },
+  "ecmaFeatures": {
+    "jsx": true,
+    "modules": true
+  },
+  "parserOptions": {
+    "sourceType": "module"
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended"
+  ],
+  "plugins": [
+    "jest"
+  ],
+  "rules": {
+    "no-console": 1,
+    "no-unused-vars": [0, { "vars": "all", "args": "after-used",
+      "ignoreRestSiblings": false }],
+    "no-class-assign": 1,
+  },
+  "parser": "babel-eslint"
+}
